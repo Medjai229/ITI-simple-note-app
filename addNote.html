@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add New Note</title>
+    <link rel="stylesheet" href="addNote.css" />
+    <script src="addNote.js" defer></script>
+  </head>
+  <body>
+    <div id="noteInfo">
+      <form action="">
+        <label for="title">Note Title</label>
+        <br />
+        <input type="text" name="title" id="title" />
+        <br />
+        <label for="desc">Description</label>
+        <br />
+        <textarea
+          type="text"
+          name="description"
+          id="desc"
+          height="150px"
+        ></textarea>
+        <br />
+        <label for="date">Date</label>
+        <br />
+        <input type="date" name="modifiedAt" id="date" />
+        <br />
+        <button id="add">Add Note</button>
+      </form>
+    </div>
+  </body>
+</html>
