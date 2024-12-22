@@ -4,6 +4,11 @@ var desc = document.getElementById('desc');
 var date = document.getElementById('date');
 var errorMsg = document.querySelectorAll('span');
 
+// Making the date equal to today
+var today = new Date();
+const formattedDate = today.toISOString().split('T')[0];
+date.value = formattedDate;
+
 addBtn.addEventListener('click', (e) => {
   e.preventDefault();
   var xhr = new XMLHttpRequest();
