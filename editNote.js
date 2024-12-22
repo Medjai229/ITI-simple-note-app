@@ -6,7 +6,7 @@ var noteData = JSON.parse(sessionStorage.getItem('noteData'));
 var errorMsg = document.querySelectorAll('span');
 title.value = noteData.title;
 desc.value = noteData.description;
-date.value = noteData.createdAt;
+date.value = noteData.modifiedAt;
 
 saveBtn.addEventListener('click', (e) => {
   e.preventDefault();
