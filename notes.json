@@ -1,10 +1,16 @@
 {
   "notes": [
     {
-      "title": "sda",
-      "description": "sdasdasdasdasda",
-      "modifiedAt": "2024-12-03",
-      "id": "b5a4"
+      "id": "4e1a",
+      "title": "Studying",
+      "description": "Study all the lectures",
+      "modifiedAt": "2024-12-10"
+    },
+    {
+      "id": "bf5d",
+      "title": "PLaying",
+      "description": "play some games with firends",
+      "modifiedAt": "2024-12-10"
     }
   ]
 }
